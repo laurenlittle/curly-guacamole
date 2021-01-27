@@ -1,0 +1,53 @@
+.card {
+  border-radius: 16px;
+  background: #1b1b1b;
+  margin: 1rem auto 2rem;
+  // padding: 24px 48px;
+  padding: 15px 24px 40px;
+  text-align: center;
+  width: 80%;
+
+  &:first-child {
+    margin-top: 2rem;
+  }
+
+  &-title,
+  &-number {
+    display: inline-block;
+  }
+
+  &-number {
+    color: #7a7a7a;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  &-content {
+    font-size: 18px;
+  }
+
+  &-images {
+    text-align: center;
+  }
+}
+
+.ei-logo {
+  display: block;
+  margin: 15px auto 30px;
+}
+
+.ru-logo {
+  width: 48px;
+  margin-right: 28px;
+}
+
+@media screen and (min-width: 576px) {
+  .card {
+    padding: 15px 48px 40px;
+    width: 70%;
+
+    &-number {
+      margin-bottom: 0;
+    }
+  }
+}
