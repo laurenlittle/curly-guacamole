@@ -8,10 +8,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* padding: 20px 30px; */
+  padding: 10px 30px;
   font-family: 'Roboto', sans-serif;
+  /* background: #1c1c1c; */
+  background: #1b1b1b;
+  /* background: #131212; */
+  color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Yusei Magic', sans-serif;
+a {
+  text-decoration: none;
+  color: #fff;
 }

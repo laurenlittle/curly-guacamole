@@ -1,10 +1,22 @@
 import React from 'react';
-// import { Route, Switch } from 'react-router-dom';
+
+import './App.scss';
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import About from './components/Sections/About/About';
+import CardContainer from './components/Sections/CardContainer/CardContainer';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Header />
+      <main className="site-content">
+        <About />
+        <CardContainer />
+      </main>
+      <Footer />
+    </>
   );
 }
 
