@@ -1,0 +1,93 @@
+.about {
+  display: grid;
+  grid-template-rows:  60% 40%;
+  grid-template-rows:  48% 28% 24%;
+  // margin-right: 2rem;
+
+  &-heading {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  &-img {
+    width: 200px;
+    clip-path: circle(40%);
+    justify-self: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .about {
+    // grid-template-rows: 70% 30%;
+    grid-template-rows: 65% 20% 15%;
+    max-width: 100%;
+    // margin-right: 0;
+
+    &-img {
+      // width: 300px;
+      width: 265px;
+    }
+
+    &-heading {
+      font-size: 35px;
+      // margin: 0 1.5rem;
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+.btn {
+  justify-self: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.btn-outline {
+  margin-top: 0.5rem;
+
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+
+  &:hover {
+    background: rgba(#fff, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+}
