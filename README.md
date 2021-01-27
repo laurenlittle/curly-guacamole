@@ -1,4 +1,4 @@
-# Curly Quacamole
+# Curly Quacamole 🥑
 ## Source Code for my Personal Website
 ### visit suerolauren.com
 
