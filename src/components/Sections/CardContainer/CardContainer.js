@@ -16,7 +16,7 @@ function CardContainer() {
       headingText: 'About Me',
       headingLevel: 'h2',
       className: 'about-me',
-      content: "I love React and writing clean, accessible, performant code. When I'm not in front of the computer, I enjoy 🚴‍♀️ 🏊‍♀️  🏖️  🏀  ⚽. Available for a virtual coffee or beer? Let's connect!",
+      content: "I love React, JavaScript, and writing clean, accessible, performant code. When I'm not in front of the computer, I enjoy 🚴‍♀️ 🏊‍♀️  🏖️  🏀  ⚽. Available for a virtual coffee or beer? Let's connect!",
     },
     {
       cardNumber: '02',
@@ -44,7 +44,7 @@ function CardContainer() {
       headingText: 'Projects',
       headingLevel: 'h2',
       className: 'projects',
-      content: '',
+      content: 'Coming Soon!',
     },
     {
       cardNumber: '04',

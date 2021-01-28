@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './About.scss';
-import selfie from '../../../assets/images/work-me.jpg';
+import selfie from '../../../assets/images/werk-me-opt.jpg';
 
 import HeadingText from '../../HeadingText/HeadingText';
 
